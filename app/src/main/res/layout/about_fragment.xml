@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<TextView
+    android:paddingTop="50dp"
+    android:layout_width="match_parent"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:layout_height="match_parent"
+    android:text="This application is the third assignment of the Android development course submitted by Ashish Pathak"
+    android:textAlignment="center" />
+
+</RelativeLayout>
