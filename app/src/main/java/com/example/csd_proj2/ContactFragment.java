@@ -23,6 +23,7 @@ public class ContactFragment extends Fragment {
         ArrayList<Contact> contacts = new ArrayList<>();
         contacts.add(new Contact("Ashish Pathak", "ashishpathak@gmail.com"));
         contacts.add(new Contact("Satyam Dixit", "satyamdixit@gmail.com"));
+        contacts.add(new Contact("Rohit Mittal", "rohitmittal@gmail.com"));
         ListView listView = view.findViewById(R.id.contact_list);
         ContactAdaptor adapter = new ContactAdaptor(getActivity(),R.layout.adaptor_view_layout,contacts);
         listView.setAdapter(adapter);
